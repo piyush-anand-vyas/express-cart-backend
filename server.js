@@ -30,7 +30,7 @@ const corsOptions ={
 }
 
 //app.use(cors(corsOptions)) ;
-//app.use(cors());
+app.use(cors());
 
 // app.use(function(req, res, next) {
 //   res.header("Access-Control-Allow-Origin","*"); // update to match the domain you will make the request from
